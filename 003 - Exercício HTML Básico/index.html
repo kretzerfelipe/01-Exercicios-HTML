@@ -9,59 +9,57 @@
         <style>
             /* Seletor Universal*/
             *{
-                color: black;
+                color: rgb(0, 0, 0);
             }
             
             /* Seletor de Clase*/
             .clTituloPrincipal{
                 color: red;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
         </style>
      </head>
 
     
     <body>
-       <div>
-        <!------------- Área de Cabeçalho ------------------>
-            <div>
-                <header>
-                    
-                    <a><h1 class="clTituloPrincipal">Spotiflix</h1></a>
-                </header>
-            </div>
-        <!------------- Área de Músicas ------------------>
-            <main>
-                <div>
-                    <details>
-                        <summary>Another Love</summary>
-                        <p>Single - Tom Odell<br>
-                    </details>
-                    <audio controls autoplay loop muted>
-                        <source src="assets/Love.mp3" type="audio/mpeg"></audio></p>
-                    <a href="assets/Love.mp3" download target="_blank">Download </a>
-                </div>
-
-                <div>
-                    <details>
-                        <summary>Freaks</summary>
-                        <p>Single - Surf case <br>
-                    </details>
-                    <audio controls autoplay loop muted>
-                        <source src="assets/Freaks.mp3" type="audio/mpeg"></audio></p>
-                    <a href="assets/Freaks.mp3" download target="_blank">Download</a>
-                </div>
-                
-                <div>
-                    <p></p><details>
-                        <summary>Mice on Venus</summary>
-                        <p>Album - C418 - Minecraft<br>
-                    </details>
-                    <audio controls autoplay loop muted>
-                        <source src="assets/MiceOnVenus.mp3" type="audio/mpeg"></audio></p>
-                    <a href="assets/MiceOnVenus.mp3" download target="_blank">Download</a>
-                </div>
-            </main>
-       </div> 
-        
+                <!------------- Área de Cabeçalho ------------------>
+                    <div>
+                        <header>
+                            <a><h1 class="clTituloPrincipal">Spotiflix</h1></a>
+                        </header>
+                    </div>
+                <!------------- Área de Músicas ------------------>
+                    <main>
+                        <div></div>
+                            <details>
+                                <summary>Another Love</summary>
+                                <p>Single - Tom Odell<br>
+                            </details>
+                            <audio controls autoplay loop muted>
+                                <source src="assets/Love.mp3" type="audio/mpeg"></audio></p> 
+                            <a href="assets/Love.mp3" download target="_blank">Download</a>
+                        </div>
+                            <details>
+                                <summary>Freaks</summary>
+                                <p>Single - Surf case <br>
+                            </details>
+                            <audio controls autoplay loop muted>
+                                <source src="assets/Freaks.mp3" type="audio/mpeg"></audio></p>
+                            <a href="assets/Freaks.mp3" download target="_blank">Download</a>
+                        </div>
+                            
+                        <div>
+                            <p></p><details>
+                                <summary>Mice on Venus</summary>
+                                <p>Album - C418 - Minecraft<br>
+                            </details>
+                            <audio controls autoplay loop muted>
+                                <source src="assets/MiceOnVenus.mp3" type="audio/mpeg"></audio></p>
+                            <a href="assets/MiceOnVenus.mp3" download target="_blank">Download</a>
+                        </div>
+                    </main>
+            </div> 
     </body>
 </html>
