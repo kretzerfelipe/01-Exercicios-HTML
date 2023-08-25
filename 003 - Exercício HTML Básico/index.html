@@ -19,47 +19,118 @@
                 justify-content: center;
                 align-items: center;
             }
+
+            .clTituloPrincipal2{
+                color: rgb(0, 0, 0);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .cllinha{
+                display: flex;
+            }
         </style>
      </head>
 
     
     <body>
-                <!------------- Área de Cabeçalho ------------------>
-                    <div>
-                        <header>
-                            <a><h1 class="clTituloPrincipal">Spotiflix</h1></a>
-                        </header>
-                    </div>
+            <!------------- Área de Cabeçalho ------------------>
+            <div>                   
+                    <header>
+                        <a><h1 class="clTituloPrincipal">Spotiflix</h1></a>
+                        <p class="clTituloPrincipal2">Seu site para o Download de músicas</p>
+                    </header>
                 <!------------- Área de Músicas ------------------>
                     <main>
-                        <div></div>
+                        <section id="download">
                             <details>
                                 <summary>Another Love</summary>
                                 <p>Single - Tom Odell<br>
                             </details>
-                            <audio controls autoplay loop muted>
-                                <source src="assets/Love.mp3" type="audio/mpeg"></audio></p> 
-                            <a href="assets/Love.mp3" download target="_blank">Download</a>
-                        </div>
+                            <div class="cllinha">
+                                <div>
+                                    <audio controls autoplay loop muted>
+                                        <source src="assets/Love.mp3" type="audio/mpeg">
+                                        Seu navegador não é compatível com o áudio
+                                    </audio>
+                                </div>
+                                <div>
+                                    <a href="assets/Love.mp3" download target="_blank">Download</a>
+                                </div>
+                            </div>
+
                             <details>
                                 <summary>Freaks</summary>
-                                <p>Single - Surf case <br>
+                                <p>Single - surf Case <br>
                             </details>
-                            <audio controls autoplay loop muted>
-                                <source src="assets/Freaks.mp3" type="audio/mpeg"></audio></p>
-                            <a href="assets/Freaks.mp3" download target="_blank">Download</a>
-                        </div>
-                            
-                        <div>
-                            <p></p><details>
+                            <div class="cllinha">
+                                <div>
+                                    <audio controls autoplay loop muted>
+                                        <source src="assets/Freaks.mp3" type="audio/mpeg">
+                                        Seu navegador não é compatível com o áudio
+                                    </audio>
+                                </div>
+                                <div>
+                                    <a href="assets/Freaks.mp3" download target="_blank">Download</a>
+                                </div>
+                            </div>
+
+                            <details>
                                 <summary>Mice on Venus</summary>
                                 <p>Album - C418 - Minecraft<br>
                             </details>
-                            <audio controls autoplay loop muted>
-                                <source src="assets/MiceOnVenus.mp3" type="audio/mpeg"></audio></p>
-                            <a href="assets/MiceOnVenus.mp3" download target="_blank">Download</a>
-                        </div>
+                            <div class="cllinha">
+                                <div>
+                                    <audio controls autoplay loop muted>
+                                        <source src="assets/MiceOnVenus.mp3" type="audio/mpeg">
+                                        Seu navegador não é compatível com o áudio
+                                    </audio>
+                                </div>
+                                <div>
+                                    <a href="assets/MiceOnVenus.mp3" download target="_blank">Download</a>
+                                </div>
+                            </div>
+                        </section>
+                        <br> <br> <br>
+                        <section>
+                            <div>
+                                <details>
+                                    <summary>Quais são os termos de uso dessas músicas?</summary>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, sequi iure ducimus hic vitae perspiciatis excepturi voluptatum aliquid, quisquam ipsa praesentium odio dolorem neque at inventore corporis libero corrupti ea!</p>
+                                </details>
+                               
+                            </div>
+
+                            <div>
+                                <details>
+                                    <summary>Quem pode baixar?</summary>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, sequi iure ducimus hic vitae perspiciatis excepturi voluptatum aliquid, quisquam ipsa praesentium odio dolorem neque at inventore corporis libero corrupti ea!</p>
+                                </details>
+                               
+                            </div>
+
+                            <div>
+                                <details>
+                                    <summary>Quais são os termos de uso dessas músicas?</summary>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, sequi iure ducimus hic vitae perspiciatis excepturi voluptatum aliquid, quisquam ipsa praesentium odio dolorem neque at inventore corporis libero corrupti ea!</p>
+                                </details>
+                               
+                            </div>
+                        </section>
                     </main>
+
+                    <footer>
+                        <div class="clTituloPrincipal2">
+                            <p>Alguma Dúvida?</p>
+                        </div>
+                        <div class="clTituloPrincipal2">
+                            <p>Entre em Contato!</p>
+                        </div>
+                        <div class="clTituloPrincipal2">
+                            <p>(99) 99999 9999</p>
+                        </div>
+                    </footer>
             </div> 
     </body>
 </html>
