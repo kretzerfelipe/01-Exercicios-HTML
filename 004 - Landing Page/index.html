@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Curso do Balacobaco</title>
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="shortcut icon" type="image/x-icon" href="assets/images/capelo logo.png">
+        
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+            body {
+                margin: 0;
+            }
+
+            .cordefundo{
+                background-color: #22223a;
+                width: 100%;
+                height: 100vh;
+                background-image: url(assets/images/megafone.png);
+                background-position: bottom left ;
+                background-size: 25%;
+                background-repeat: no-repeat;
+            }
+
+            .cordefundo2{
+                background-color: #f2e9e4;
+                width: 100%;
+                height: 100vh;
+            }
+            
+            .menu ul {
+                list-style-type: none;
+            }
+
+            .menu ul li {
+                margin-left: 20px;
+                color: #f2e9e4;
+                font-family: 'Playfair Display';
+            }
+
+            .barraNav {
+                background-color: #353553;
+            }
+
+            .flex {
+                display: flex;
+            }
+
+            .sombralogo {
+                filter: drop-shadow(0px 0px 3px #f2e9e4);
+            }
+
+            .textop1 {
+                font-family: 'Bebas Neue', sans-serif;
+                color:#f2e9e4;
+                font-size: 5rem;
+                text-align: center;
+                margin: 0;
+            }
+
+            .textop2 {
+                font-family: 'Playfair Display', sans-serif;
+                color:#f2e9e4;
+                font-size: 1.8rem;
+                text-align: center;
+                margin-bottom: 8%;
+                line-height: 1.5;
+            }
+
+            .textop3 {
+                font-family: 'Bebas Neue', sans-serif;
+                color:#353553;
+                font-size: 5rem;
+                text-align: center;
+                margin: 0;
+            }
+
+            a:link, a:visited {
+            color: #f2e9e4;
+            padding: 0px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            }
+
+            a:hover, a:active {
+            background-color: #22223a;
+            color: white;
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+        <!-----Cabeçalho----->
+        <header>
+            <nav class="barraNav flex">
+                <div class="logo">
+                    <img src="assets/images/capelo logo.png " alt="Logo" height="50px" class="sombralogo">
+                </div>
+
+                <div class="menu">
+                    <ul class="flex">
+                        <li><a href="#idContato">Home</a></li>
+                        <li><a href="#idCurso">Curso</a></li>
+                        <li><a href="#idContato">Avaliações</a></li>
+                        <li><a href="#idContato">Contatos</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-----Principal----->
+        <main>
+            <nav>
+                <div class="cordefundo">
+                    <br>
+                    <p class="textop1">
+                        Preste atenção! <br>
+                        Não perca esta oportunidade!
+                    </p>
+                    <br>
+                    <p class="textop2">
+                        O curso "Como ganhar dinheiro" na internet está com 50 % de desconto. <br>
+                        Acesse agora a aba "Inscrição" para garantir a vaga na turma de 2023!
+                    </p>
+                </div>
+
+                <div class="cordefundo2" id="idCurso">
+                    <br>
+                    <p class="textop3">
+                        Curso
+                    </p>
+                    
+                </div>
+            </nav>
+        </main>
+        <!-----Rodapé----->
+        <footer>
+
+        </footer>
+
+    </body>
+</html>
